@@ -5,6 +5,8 @@ build_targets:
   container:
     image: yourbase/yb_ubuntu:18.04
   name: default
+  tags:
+    project: 5
 
 ci:
   builds:
