@@ -14,6 +14,6 @@ ci:
     name: default
 dependencies:
   build:
-  - java:11.0.6
+  - java:8.252.09
   - gradle:6.5.1
   - android:latest
