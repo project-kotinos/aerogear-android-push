@@ -1,7 +1,8 @@
 build_targets:
 - commands:
   - ./gradlew androidDependencies
-  - ./gradlew lint test
+  #- ./gradlew lint test
+  - ./gradlew --init-script ./yourbase.gradle lint test
   container:
     image: yourbase/yb_ubuntu:18.04
   name: default
